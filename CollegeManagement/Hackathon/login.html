@@ -1,0 +1,32 @@
+<html>
+   <head>
+      <title>S V University</title>
+      <meta charset="Utf-8">
+      <meta name="viewport" content="width=device-width, initial scale=1">
+      <link rel="stylesheet" href="loginstyle.css">
+   </head>
+  <body>
+      
+<div class="container">
+   <form  action="login.php" method="POST" id="form">
+     <h1 id="H1">Login</h1>
+     <div class="input-group">
+        <label for="pin">Pin</label>
+        <input id="pin" name="pin" placeholder="Pin" type="text" required>
+	  <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+     </div>
+     <div class="input-group">
+        <label for="password">Password</label>
+        <input id="password" name="password" placeholder="password" type="password" required>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Error Message</p>
+     </div>
+    <button type="submit" class="btn"> Login </button>
+    </form>
+  </div>
+<script src="login_validation.js" defer></script>
+</body>
+</html>
